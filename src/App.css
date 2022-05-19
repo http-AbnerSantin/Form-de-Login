@@ -1,0 +1,13 @@
+*{
+    font-family: IBM Plex Mono;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --cor-1:#122;
+    --cor-2:#78f275;
+    --cor-3:#157c13;
+    --cor-4:#fff;
+
+}

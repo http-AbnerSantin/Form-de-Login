@@ -1,0 +1,48 @@
+
+
+.container {
+    background: #fff;
+    justify-items: center;
+    padding: 50px 50px;
+    justify-content: center;
+    justify-self: center;
+    margin: 150px 450px;
+    display: grid;
+    position: relative;
+}
+
+h1{
+    color: #112;
+    font-weight: 300;
+    padding-bottom: 1.5rem;
+}
+input{
+    border-radius: 30px;
+    border: 1px solid rgba(17, 17, 34, 0.492);
+    padding: 10px 70px;
+
+}
+
+.container-form{
+    display:grid;
+    justify-items: center;
+    gap: 1em;
+}
+
+.container::after{
+    content: "";
+    position: absolute;
+    width: 10rem;
+    height: 1.5rem;
+    background: #78f275;
+    top: -12px;
+}
+
+a{
+    color: #112;
+}
+.form-check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
