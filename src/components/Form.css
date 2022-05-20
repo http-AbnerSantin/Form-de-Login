@@ -1,50 +1,82 @@
-
-
 .container {
-    background: #fff;
-    justify-items: center;
-    padding: 50px 50px;
-    justify-content: center;
-    justify-self: center;
-    margin: 150px 450px;
-    display: grid;
-    position: relative;
+  background: #fff;
+  justify-items: center;
+  padding: 50px 50px;
+  justify-content: center;
+  justify-self: center;
+  margin: 150px 450px;
+  display: grid;
+  position: relative;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-h1{
-    color: #112;
-    font-weight: 300;
-    padding-bottom: 1.5rem;
+h1 {
+  color: #112;
+  font-weight: 300;
+  padding: 1rem 0px 2rem 0px;
 }
-.input{
-    border-radius: 30px;
-    border: 1px solid rgba(17, 17, 34, 0.492);
-    padding: 10px;
-    width: 18rem;
-
+.input {
+  border-radius: 30px;
+  border: 1px solid rgba(17, 17, 34, 0.492);
+  padding: 10px 160px 10px 10px;
 }
-
-.container-form{
-    display:grid;
-    justify-items: center;
-    gap: 1em;
+.input-column {
+  display: flex;
+  flex-direction: column;
 }
 
-.container::after{
-    content: "";
-    position: absolute;
-    width: 10rem;
-    height: 1.5rem;
-    background: #78f275;
-    top: -12px;
+.container-form {
+  display: grid;
+  justify-items: center;
+  gap: 1em;
 }
 
-a{
-    color: #112;
-    margin-left: 15px;
+.container::after {
+  content: "";
+  position: absolute;
+  width: 10rem;
+  height: 1.5rem;
+  background: #78f275;
+  top: -12px;
 }
-.form-check{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+a {
+  color: #112;
+}
+a:hover {
+  color: #157c13;
+}
+.form-check {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.btn {
+  padding: 20px 100px;
+  border-radius: 30px;
+  border: none;
+  background: #78f275;
+  color: #157c13;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: solid 2px transparent;
+}
+.btn:hover {
+  background-color: #fff;
+  border: 2px solid #78f275;
+  color: #78f275;
+  transition: 0.8s;
+}
+
+.forgot-password {
+  font-size: 0.8rem;
+}
+span {
+  margin-left: 8px;
+}
+label {
+  margin: 10px 0px 5px 10px;
 }
