@@ -16,9 +16,14 @@ h1 {
   padding: 1rem 0px 2rem 0px;
 }
 .input {
-  border-radius: 30px;
-  border: 1px solid rgba(17, 17, 34, 0.492);
+  border: 1px solid transparent;
+  border-bottom: 1px solid #78f275;
   padding: 10px 160px 10px 10px;
+  font-size: inherit;
+  outline: none;
+}
+.input:focus-within {
+  border-bottom: 1px solid #157c13;
 }
 .input-column {
   display: flex;
@@ -63,6 +68,7 @@ a:hover {
   font-size: 0.9rem;
   cursor: pointer;
   border: solid 2px transparent;
+  letter-spacing: 1.5px;
 }
 .btn:hover {
   background-color: #fff;
@@ -76,11 +82,4 @@ a:hover {
 }
 span {
   margin-left: 8px;
-}
-label {
-  margin: 10px 0px 5px 10px;
-}
-.erro {
-  color: red;
-  margin-left: 10px;
 }

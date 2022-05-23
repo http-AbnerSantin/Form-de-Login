@@ -30,19 +30,24 @@ export function Form () {
         <h1>Login</h1>
         <form action="" className="container-form">
           <div className="input-column">
-            <label htmlFor="email" >Email</label>
-            <input className="input" type="email" id="email" placeholder="Seu email" required 
-            value={email} onChange={(e) => setEmail(console.log (e.target.value))} />
-            {erro.email && <p>{erro.email}</p> }
+            {/* <label htmlFor="email" >Email</label> */}
+            <input className="input" 
+              type="email" 
+              id="email" 
+              placeholder="Email" 
+              required 
+              value={email} 
+              onChange={(e) => setEmail(console.log (e.target.value))} />
+              {erro.email && <p>{erro.email}</p> }
           </div>
           <div className="input-column">
-            <label htmlFor="password">Senha</label>
+            {/* <label htmlFor="password">Senha</label> */}
             <input
               className="input"
               type="password"
               name="password"
-              id="password"
               placeholder="Senha"
+              id="password"
               value={password}
               onChange={(e) => {setPassword(e.target.value)}}
               required

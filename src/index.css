@@ -7,7 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(116.82deg, #1ac4cf 0%, #2dd329 100%);
   background-size: 300% 300%;
-  animation: background 4s ease infinite;
+  animation: background 3s ease infinite;
 }
 
 @keyframes background {
